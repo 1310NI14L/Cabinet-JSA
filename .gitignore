@@ -1,0 +1,23 @@
+# ==========================================
+# GESTION DES FICHIERS IGNORÉS - JSA ATELIER
+# ==========================================
+
+# Dossiers et fichiers de dépendances / bibliothèques locales
+# (Puisque tu utilises des CDN pour Bootstrap et Font Awesome)
+/css/bootstrap.min.css.map
+/css/all.min/css
+/js/all.min.js
+/js/bootstrap.bundle.min.js
+/webfonts/
+/assets/
+
+# Fichiers et dossiers système d'exploitation
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fichiers temporaires d'éditeurs de code (VS Code, etc.)
+.vscode/
+*.log
+*.tmp
+.cache/

@@ -1,0 +1,56 @@
+/* =================================================================ameron */
+/* CONFIGURATION DES POLICES & IMPORT FONT AWESOME */
+/* ================================================================= */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+/* ================================================================= */
+/* VARIABLES GLOBALES DU PROJET (Design System JSA Atelier)          */
+/* ================================================================= */
+:root {
+    /* Palette de couleurs (Inspirée des maquettes JSA) */
+    --bg-color: #F4F0EA;          /* Fond beige clair dominant */
+    --bg-dark: #1A1816;           /* Fond sombre (pour le menu mobile et sections) */
+    --text-main: #1A1816;         /* Couleur principale du texte */
+    --text-muted: #6E6863;        /* Texte secondaire / gris-marron */
+    --accent-color: #C2A689;      /* Teinte accentuée / dorée subtile */
+    --border-color: #E2DCD5;      /* Couleur des lignes de séparation fines */
+    
+    /* Typographies */
+    --font-serif: 'Cormorant Garamond', serif; /* Pour les grands titres élégants */
+    --font-sans: 'Plus Jakarta+Sans', sans-serif;  /* Pour les textes courants */
+    
+    /* Transitions */
+    --transition-smooth: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ================================================================= */
+/* RESET CSS DE BASE                                                 */
+/* ================================================================= */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
